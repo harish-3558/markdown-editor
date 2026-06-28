@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown Editor</title>
+    <script type="module" crossorigin src="/assets/index-ustOgX-W.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BMwJlcXx.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>📝 Markdown Editor</h1>
+      <p>Type on the left → see the result on the right</p>
+    </header>
+
+    <main>
+      <!-- LEFT: where you type -->
+      <section class="panel">
+        <div class="panel-header">✏️ Write</div>
+        <textarea id="editor" placeholder="Start typing Markdown here..."></textarea>
+      </section>
+
+      <!-- RIGHT: live preview -->
+      <section class="panel">
+        <div class="panel-header">👁️ Preview</div>
+        <div id="preview"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span id="word-count">0 words</span>
+      <span id="char-count">0 characters</span>
+    </footer>
+
+    <!-- Vite handles TypeScript automatically -->
+  </body>
+</html>
